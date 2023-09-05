@@ -75,6 +75,6 @@ main {
     display: block;
     margin-top: 0;
     margin-left: auto;
-    border: 0 solid none;
+    border: 1px solid #23022e;
     border-radius: 100%;
 }
