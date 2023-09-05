@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+body {
+    background-color: #eff8e2;
+}
+
+.top-banner {
+    text-align: center;
+    background-color: #573280;
+    color: #23022e;
+    margin: 0;
+    width: auto;
+    height: 30px;
+}
+
+.navwrapper {
+    text-align: left;
+    background-color: #23022e;
+    color: #cecfc7;
+    width: 110px;
+    margin: 20px;
+    border: 0px solid #23022e;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+}
