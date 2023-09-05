@@ -15,9 +15,11 @@ header {
     text-align: center;
     background-color: #573280;
     color: #23022e;
-    margin: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
     width: auto;
-    height: 30px;
+    height: 40px;
 }
 
 .navwrapper {
@@ -38,7 +40,7 @@ header {
 .nav-p {
     display: block;
     width: 800px;
-    height: 80px;
+    height: 90px;
     border: 0 solid none;
     border-radius: 5px;
     margin-top: 5px;
@@ -71,10 +73,18 @@ main {
 }
 
 .pfp {
-    width: 150px;
+    width: 160px;
     display: block;
-    margin-top: 0;
+    margin-top: -150px;
     margin-left: auto;
     border: 1px solid #23022e;
     border-radius: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #ada8b6;
+    color: #23022e
 }

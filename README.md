@@ -18,4 +18,5 @@
 
 # Egne Notater: 
     - Drøfter ide av oppsett i Excalidraw, fant en grei fargepalett fra coolors.co
-    - I kommentarer i koden hvor jeg skriver "function?" funderer jeg på om jeg kan/bør legge inn en lenke eller "snarvei"
+    - I kommentarer i koden hvor jeg skriver "function?" funderer jeg på om jeg kan/bør legge inn en lenke eller "snarveier"
+    - Se over kode til img i header, kan plasseringen løses på en bedre måte?
