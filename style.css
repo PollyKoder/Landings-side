@@ -6,6 +6,11 @@ body {
     background-color: #eff8e2;
 }
 
+header {
+    display: block;
+
+}
+
 .top-banner {
     text-align: center;
     background-color: #573280;
@@ -20,12 +25,13 @@ body {
     text-align: left;
     background-color: #23022e;
     color: #cecfc7;
-    width: 110px;
-    margin: 10px;
+    width: 120px;
+    margin: 8px;
     border: 0px solid #23022e;
     border-radius: 10px;
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 
@@ -35,8 +41,20 @@ body {
     height: 80px;
     border: 0 solid none;
     border-radius: 5px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.home-img {
+    display:block;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid none;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 main {
@@ -48,6 +66,15 @@ main {
     margin-right: auto;
     border: 2px solid #573280;
     border-radius: 8px;
+    padding: 10px;
 
 }
 
+.pfp {
+    width: 150px;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    border: 0 solid none;
+    border-radius: 100%;
+}
