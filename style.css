@@ -1,6 +1,5 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
 }
 
 body {
@@ -17,13 +16,38 @@ body {
 }
 
 .navwrapper {
+    position: relative;
     text-align: left;
     background-color: #23022e;
     color: #cecfc7;
     width: 110px;
-    margin: 20px;
+    margin: 10px;
     border: 0px solid #23022e;
     border-radius: 10px;
     padding: 5px;
     padding-left: 15px;
 }
+
+
+.nav-p {
+    display: block;
+    width: 800px;
+    height: 80px;
+    border: 0 solid none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: #cecfc7;
+    color: #23022e;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #573280;
+    border-radius: 8px;
+
+}
+
