@@ -22,8 +22,15 @@ header {
     height: 40px;
 }
 
+.head-flex {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navwrapper {
-    position: relative;
     text-align: left;
     background-color: #23022e;
     color: #cecfc7;
@@ -39,7 +46,7 @@ header {
 
 .nav-p {
     display: block;
-    width: 800px;
+    width: 280px;
     height: 90px;
     border: 0 solid none;
     border-radius: 5px;
@@ -50,7 +57,7 @@ header {
 
 .home-img {
     display:block;
-    width: 260px;
+    width: 190px;
     margin-left: auto;
     margin-right: auto;
     border: 0px solid none;
@@ -63,7 +70,8 @@ main {
     background-color: #cecfc7;
     color: #23022e;
     text-align: center;
-    width: 700px;
+    width: 280px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #573280;
@@ -73,9 +81,10 @@ main {
 }
 
 .pfp {
-    width: 160px;
+    width: 130px;
     display: block;
-    margin-top: -150px;
+    margin-top: 8px;
+    margin-bottom: 15px;
     margin-left: auto;
     border: 1px solid #23022e;
     border-radius: 100%;
@@ -84,7 +93,9 @@ main {
 footer {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background-color: #ada8b6;
-    color: #23022e
+    color: #23022e;
+    padding: 10px;
+    margin-bottom: -10px;
 }

@@ -2,7 +2,7 @@
 <html lang="nb">
 <head>
     <meta charset="UTF-8">
-    <title> </title>
+    <title>Kode Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -10,26 +10,28 @@
         <div class="top-banner">Homepage</div>
         <!-- Add different text to banner! Function? -->
             <img class="nav-p" src="https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_1280.jpg" alt="a row of green striped codes falling from top to bottom"/>
-        <div class="navwrapper" role="navigation">
-            <h4>Navigasjon</h4>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Projects</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
-                <!-- add functioning links, perhaps add links to other spots on the page for now.
-                Then add link to pages that open a new window or open a new page in the same window later? -->
-            </ul>
+        <div class="head-flex">
+            <div class="navwrapper" role="navigation">
+                <h4>Navigasjon</h4>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <!-- //add functioning links/, perhaps add links to other spots on the page for now.
+                    Then add link to pages that open a new window or open a new page in the same window later? -->
+                </ul>
+            </div>
+            <img class="pfp" src="https://yt3.googleusercontent.com/ytc/AOPolaTt_3hK70uNxlzCGp9Nd5d-CNnjZy0UNiv5WgsPbg=s176-c-k-c0x00ffffff-no-rj" />
         </div>
-        <img class="pfp" src="https://yt3.googleusercontent.com/ytc/AOPolaTt_3hK70uNxlzCGp9Nd5d-CNnjZy0UNiv5WgsPbg=s176-c-k-c0x00ffffff-no-rj" />
     </header>
     <main>
-        <section>
+        <section id="home">
             <img class="home-img" src="https://cdn.pixabay.com/photo/2021/01/05/01/15/home-5889366_1280.jpg" />
             <!-- add image, and link to about page?- make a separate "about" page later on? -->
             <h2>Home</h2>
@@ -43,13 +45,13 @@
         </section>
         <br>
         <br>
-        <section>
+        <section id="projects">
             <h3>Mine prosjekter</h3>
             <h5>Oppgave 1</h5>
             <a href="">Hjemme side med egen info</a>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <section>
             <h5>Kontakt info og kilde kode</h5>
             <p><b>Email</b> riviera.koder@gmail.com</p>
