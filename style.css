@@ -13,6 +13,7 @@ header {
 
 .top-banner {
     text-align: center;
+    font-size: x-large;
     background-color: #573280;
     color: #23022e;
     margin-top: -10px;
@@ -25,31 +26,33 @@ header {
 .head-flex {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .navwrapper {
     text-align: left;
+    font-size: x-large;
     background-color: #23022e;
     color: #cecfc7;
-    width: 120px;
-    margin: 8px;
+    width: 180px;
+    height: 220px;
+    margin-top: 50px;
     border: 0px solid #23022e;
     border-radius: 10px;
-    padding: 5px;
-    padding-left: 10px;
+    padding: 10px;
+    padding-left: 20px;
     padding-right: 5px;
 }
 
 
 .nav-p {
     display: block;
-    width: 280px;
-    height: 90px;
+    width: 950px;
+    height: 200px;
     border: 0 solid none;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -57,11 +60,11 @@ header {
 
 .home-img {
     display:block;
-    width: 190px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
     border: 0px solid none;
-    border-radius: 100px;
+    border-radius: 200px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -70,7 +73,7 @@ main {
     background-color: #cecfc7;
     color: #23022e;
     text-align: center;
-    width: 280px;
+    width: 800px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -81,11 +84,11 @@ main {
 }
 
 .pfp {
-    width: 130px;
+    width: 300px;
     display: block;
-    margin-top: 8px;
+    margin-top: 30px;
     margin-bottom: 15px;
-    margin-left: auto;
+    margin-left: 250px;
     border: 1px solid #23022e;
     border-radius: 100%;
 }
