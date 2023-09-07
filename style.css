@@ -33,16 +33,18 @@ header {
 
 .navwrapper {
     text-align: left;
-    font-size: x-large;
+    font-size: xx-large;
     background-color: #23022e;
     color: #cecfc7;
-    width: 180px;
-    height: 220px;
-    margin-top: 50px;
+    width: 240px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 10px;
     border: 0px solid #23022e;
     border-radius: 10px;
-    padding: 10px;
-    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 40px;;
+    padding-left: 30px;
     padding-right: 5px;
 }
 
@@ -77,9 +79,10 @@ main {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #573280;
-    border-radius: 8px;
-    padding: 10px;
+    border: 3px solid #573280;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
 
 }
 
@@ -87,18 +90,30 @@ main {
     width: 300px;
     display: block;
     margin-top: 30px;
-    margin-bottom: 15px;
-    margin-left: 250px;
-    border: 1px solid #23022e;
+    margin-left: 210px;
+    border: 2px solid #23022e;
     border-radius: 100%;
 }
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 0px;
     background-color: #ada8b6;
     color: #23022e;
     padding: 10px;
     margin-bottom: -10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 15px;
+}
+
+span {
+    position: relative;
+    left: -2px;
 }
