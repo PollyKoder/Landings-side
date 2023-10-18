@@ -3,6 +3,7 @@
 }
 
 body {
+    margin: 0;
     background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7);
 }
 
@@ -15,9 +16,6 @@ header {
     font-size: x-large;
     background-color: #573280;
     color: #cecfc7;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
     width: auto;
     height: 40px;
 }
@@ -30,7 +28,7 @@ header {
     margin-right: auto;
 }
 
-.navwrapper {
+.navWrapper {
     text-align: left;
     font-size: xx-large;
     background-color: #23022e;
@@ -61,9 +59,9 @@ header {
 
 .home {
     flex-direction: column;
-    gap: 80px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .home-img {
@@ -80,7 +78,6 @@ header {
 main {
     background-color: #cecfc7;
     color: #23022e;
-    text-align: center;
     width: 800px;
     margin-top: 40px;
     margin-left: auto;
@@ -89,6 +86,28 @@ main {
     border-radius: 15px;
     padding: 20px;
     padding-bottom: 30px;
+}
+
+h3 {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 35px;
 }
 
 .img-t1 {
@@ -120,7 +139,6 @@ footer {
     background-color: #ada8b6;
     color: #23022e;
     padding: 10px;
-    margin-bottom: -10px;
 }
 
 ul {
@@ -131,3 +149,10 @@ li {
     margin: 15px;
 }
 
+
+
+/* fix responsive design with media query below, adjust to function well on browser and tablet*/
+
+@media (max-width: 1025px) {
+    /*endre max width til største lapt top width i parantesen over*/
+}
