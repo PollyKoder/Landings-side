@@ -2,6 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 /* ex fra undervisning:
     /*General
 .lightMode{
@@ -11,14 +12,30 @@
 
 /* Dark Mode
 .darkMode {
-     
+   
 }
+*/
 
+
+/*Setup for light mode*/
+/*
+.lightMode {
+    margin:0;
+    background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7);
+}
+*/
+
+/*Setup for dark mode*/
+/* 
+.darkMode {
+    margin: 0;
+    background-image: linear-gradient(#23022e, #573280, #ada8b6, #cecfc7, #eff8e2, #cecfc7, #ada8b6, #573280, #23022e);
+}
 */
 
 body {
     margin: 0;
-    background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7);
+    background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7, #eff8e2);
 }
 
 header {
