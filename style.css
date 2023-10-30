@@ -2,6 +2,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* ex fra undervisning:
+    /*General
+.lightMode{
+    banckground-color: #fdfdfd;
+    color:#0d0d0d;
+}
+
+/* Dark Mode
+.darkMode {
+     
+}
+
+*/
+
 body {
     margin: 0;
     background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7);
