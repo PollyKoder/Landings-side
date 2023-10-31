@@ -192,6 +192,12 @@ h3 {
     border-radius: 10px;
 }
 
+.imgParallax {
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
 .pfp {
     width: 300px;
     display: block;
