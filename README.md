@@ -24,3 +24,6 @@
     - Bruker nå -margin for å motarbeide default marginen i nettleseren, mulig det er bedre måter å gjøre dette på.
     
     - Trenger å justere siden til mobil display, da det er den mest brukte platformen for all media per dagens undersøkelse.
+
+
+    - Husker ikkje hvorfor jeg satt ul i en span, skulle kommentert mer/bedre i koden der. Ønsker å finne ut om det har en funksjon før jeg fjerner den.

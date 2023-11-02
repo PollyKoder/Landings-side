@@ -115,6 +115,22 @@ header {
     padding-right: 5px;
 }
 
+.burgerMenu {
+    display: none;
+    height: 1rem;
+}
+
+.showNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    position: fixed;
+    background-color: #23022e;
+}
+
 
 .nav-p {
     display: block;
@@ -218,7 +234,7 @@ footer {
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
 }
 
 li {
@@ -227,8 +243,18 @@ li {
 
 
 
-/* fix responsive design with media query below, adjust to function well on browser and tablet*/
+/* fix responsive design with media query below, adjust to function well on browser, then tablet.*/
 
-@media (max-width: 1025px) {
-    /*endre max width til største lapt top width i parantesen over*/
+@media (max-width: 1441px) {
+    /*I tried to adjust the button size, but nothing happens. Will fix it at another time...*/
+    /* .themeToggle {
+        width: 70px;
+        height: 30px;
+    } */ 
+    /* I wanted to postion the button, and then realized that I was trying to fix it here as if this 
+    was related to mobile display. Really should've just made desktop first and then made mobile display*/
+    /* .burgerMenu {
+        display: flex;
+        margin-left: auto;
+    } */
 }
