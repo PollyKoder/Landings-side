@@ -45,7 +45,6 @@
         padding: 5px;
         border-radius: 30px;
     }
-    margin: 0;
     background-image: linear-gradient(#23022e, #573280, #ada8b6, #cecfc7, #eff8e2, #cecfc7, #ada8b6, #573280, #23022e);
     .main {
         background-color: #23022e;
@@ -245,7 +244,8 @@ li {
 
 /* fix responsive design with media query below, adjust to function well on browser, then tablet.*/
 
-@media (max-width: 1441px) {
+@media (max-width: 768px) {
+    /*Adjust to tablet instead!*/
     /*I tried to adjust the button size, but nothing happens. Will fix it at another time...*/
     /* .themeToggle {
         width: 70px;
@@ -257,4 +257,8 @@ li {
         display: flex;
         margin-left: auto;
     } */
+}
+
+@media (max-width: 425px) {
+    /*Fix this to mobile display*/
 }
