@@ -195,24 +195,18 @@ h3 {
     font-size: 35px;
 }
 
-.img-t1 {
+
+.imgDesktop {
     width: 600px;
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 
-.img-prtf {
+.imgMobile {
     width: 450px;
     margin-top: 30px;
     border-radius: 10px;
 }
-
-.imgParallax {
-    width: 600px;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
 
 
 .pfp {
