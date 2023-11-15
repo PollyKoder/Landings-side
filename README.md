@@ -31,3 +31,6 @@
     - hamburger meny'en er ikkje med, tror jeg mangler noe eller må gjøre media-query på en anne måte...
 
     - Tenker eg prøver å endre responsivt design til å fungere med tablet og mobil, da er tenker siden ser ok ut i desktop format.
+
+
+    - NB! Kopier kode herfra over til ny mappe og lag nytt repo!!
