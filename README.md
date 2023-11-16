@@ -32,5 +32,9 @@
 
     - Tenker eg prøver å endre responsivt design til å fungere med tablet og mobil, da er tenker siden ser ok ut i desktop format.
 
+    -Prøvde å bruke media query til å justere mobile display igjen, kommer over samme problem her at elementer ikke skalerer riktig...
+
 
     - NB! Kopier kode herfra over til ny mappe og lag nytt repo!!
+
+
